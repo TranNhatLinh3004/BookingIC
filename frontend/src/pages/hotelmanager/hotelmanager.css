@@ -1,0 +1,16 @@
+.hotel__manager {
+  padding: 0 130px;
+  margin-top: 150px;
+}
+
+.heading__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading__top li {
+  border: 1px solid var(--book-heading);
+  padding: 8px 10px;
+  border-radius: 5px;
+}

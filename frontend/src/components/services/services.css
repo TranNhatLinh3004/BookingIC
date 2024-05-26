@@ -1,0 +1,44 @@
+.services {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 80px;
+  top: -100px;
+}
+
+.service__item:hover {
+  transform: translateY(-5px);
+}
+
+.service__item {
+  position: relative;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.service__item span i {
+  font-size: 2.2rem;
+  background-color: var(--bg-01);
+  padding: 10px;
+  border-radius: 50px;
+  color: var(--service-icon);
+  font-weight: 400 !important;
+}
+
+.service__item h3 {
+  color: var(--service-text);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.service__item p {
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #333;
+}

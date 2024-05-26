@@ -1,0 +1,317 @@
+.section__news {
+  margin-top: 150px;
+  padding: 0 130px;
+}
+
+.section__news section {
+  display: flex;
+  flex-direction: column;
+}
+
+.section__news section p {
+  color: var(--book-heading);
+}
+
+.section__news section h2 {
+  margin-bottom: 20px;
+}
+
+.App {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+#main-travel {
+  padding: 16px;
+  width: 100%;
+  background-color: white;
+}
+
+#main-travel b {
+  font-size: 1.5rem;
+}
+
+#main-travel p {
+  font-size: 0.875rem;
+}
+
+#main-travel b ~ p {
+  font-size: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+
+#main-travel .section-one h2,
+#main-travel .section-six h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#main-travel .section-one .container,
+#main-travel .section-six .container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 14rem;
+  margin-bottom: 64px;
+}
+
+#main-travel .section-one .container a,
+#main-travel .section-six .container a {
+  width: 100%;
+  color: black;
+}
+
+#main-travel .section-one .container a img,
+#main-travel .section-six .container a img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  border-radius: 4px;
+}
+
+#main-travel .section-one .container a + a,
+#main-travel .section-six .container a + a {
+  margin-left: 1rem;
+}
+
+#main-travel .section-two h2,
+#main-travel .section-nine h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#main-travel .section-two .container,
+#main-travel .section-nine .container {
+  display: grid;
+  padding: 1rem 14rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 64px;
+}
+
+#main-travel .section-two .container .item:nth-child(1) a:nth-child(1) img,
+#main-travel .section-nine .container .item:nth-child(1) a:nth-child(1) img {
+  width: 100%;
+  aspect-ratio: 2/3;
+  object-fit: cover;
+}
+
+#main-travel .section-two .container .item:nth-child(1) a:nth-child(2) img,
+#main-travel .section-nine .container .item:nth-child(1) a:nth-child(2) img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+}
+
+#main-travel .section-two .container .item:nth-child(2),
+#main-travel .section-nine .container .item:nth-child(2) {
+  grid-column: span 2;
+  margin-left: 1.5rem;
+}
+
+#main-travel .section-two .container a:nth-child(1),
+#main-travel .section-nine .container a:nth-child(1) {
+  width: 100%;
+  color: black;
+}
+
+#main-travel .section-two .container a:nth-child(1) img,
+#main-travel .section-nine .container a:nth-child(1) img {
+  width: 100%;
+  aspect-ratio: 2/1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+#main-travel .section-two .container a:nth-child(2),
+#main-travel .section-nine .container a:nth-child(2) {
+  width: 100%;
+  color: black;
+}
+
+#main-travel .section-two .container a:nth-child(2) img,
+#main-travel .section-nine .container a:nth-child(2) img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+#main-travel .section-three,
+#main-travel .section-ten {
+  padding: 1rem 14rem;
+}
+
+#main-travel .section-three h2,
+#main-travel .section-ten h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#main-travel .section-three .container,
+#main-travel .section-ten .container {
+  margin: auto;
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 64px;
+}
+
+#main-travel .section-three .container a,
+#main-travel .section-ten .container a {
+  min-width: 33.3333333333%;
+  color: black;
+}
+
+#main-travel .section-three .container a img,
+#main-travel .section-ten .container a img {
+  width: 100%;
+  aspect-ratio: 2.4/2;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+#main-travel .section-three .container a + a,
+#main-travel .section-ten .container a + a {
+  margin-left: 1rem;
+}
+
+#main-travel .section-three .container::-webkit-scrollbar,
+#main-travel .section-ten .container::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+#main-travel .section-four {
+  background-color: #f5f5f5;
+}
+
+#main-travel .section-four h2 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 24px 0;
+}
+
+#main-travel .section-four .container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 14rem;
+  margin-bottom: 64px;
+}
+
+#main-travel .section-four .container a {
+  width: 100%;
+  color: black;
+  display: flex;
+}
+
+#main-travel .section-four .container a figure {
+  width: 50%;
+}
+
+#main-travel .section-four .container a img {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+}
+
+#main-travel .section-four .container a figcaption {
+  width: 50%;
+  white-space: wrap;
+  padding: 8px;
+}
+
+#main-travel .section-four .container a + a {
+  margin-left: 1rem;
+}
+
+#main-travel .section-five h2,
+#main-travel .section-seven h2,
+#main-travel .section-eight h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#main-travel .section-five .container,
+#main-travel .section-seven .container,
+#main-travel .section-eight .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 1rem 14rem;
+  gap: 2rem;
+  margin-bottom: 64px;
+}
+
+#main-travel .section-five .container b,
+#main-travel .section-seven .container b,
+#main-travel .section-eight .container b {
+  font-size: 1.25rem;
+}
+
+#main-travel .section-five .container a,
+#main-travel .section-seven .container a,
+#main-travel .section-eight .container a {
+  width: 100%;
+  color: black;
+}
+
+#main-travel .section-five .container a img,
+#main-travel .section-seven .container a img,
+#main-travel .section-eight .container a img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+#main-travel .section-five .container a:nth-child(1),
+#main-travel .section-seven .container a:nth-child(1),
+#main-travel .section-eight .container a:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+  position: relative;
+}
+
+#main-travel .section-five .container a:nth-child(1) img,
+#main-travel .section-seven .container a:nth-child(1) img,
+#main-travel .section-eight .container a:nth-child(1) img {
+  aspect-ratio: 2.5/2;
+  object-fit: cover;
+}
+
+#main-travel .section-five .container a:nth-child(1) figcaption,
+#main-travel .section-seven .container a:nth-child(1) figcaption,
+#main-travel .section-eight .container a:nth-child(1) figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 8px;
+  color: white;
+}
+
+#main-travel .section-five .container a:nth-child(2),
+#main-travel .section-seven .container a:nth-child(2),
+#main-travel .section-eight .container a:nth-child(2) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+#main-travel .section-five .container a:nth-child(2) img,
+#main-travel .section-seven .container a:nth-child(2) img,
+#main-travel .section-eight .container a:nth-child(2) img {
+  aspect-ratio: 1.9/2;
+  object-fit: cover;
+}
+
+#main-travel .section-five .container a:nth-child(3),
+#main-travel .section-seven .container a:nth-child(3),
+#main-travel .section-eight .container a:nth-child(3) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+#main-travel .section-five .container a:nth-child(3) img,
+#main-travel .section-seven .container a:nth-child(3) img,
+#main-travel .section-eight .container a:nth-child(3) img {
+  aspect-ratio: 1.9/2;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=Travel.css.map */

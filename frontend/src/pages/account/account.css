@@ -1,0 +1,188 @@
+.accountInfo {
+    position: relative;
+    top: 190px;
+    /* margin: 115px 0; */
+    margin-bottom: 200px;
+    /* background-color: rgb(150, 172, 117); */
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 0px 130px 0 130px;
+}
+
+.sidebar__account {
+    width: 100%;
+    height: 100%;
+    /* background-color: #e9bfee; */
+}
+
+.sidebar__account h3 {
+    color: var(--book-heading);
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+.sidebar__account li {
+    margin-bottom: 10px;
+}
+
+.wrap_content_account {
+    width: 100%;
+    height: 100%;
+    /* background-color: #545454; */
+}
+
+.sidebar__account button {
+    color: var(--book-heading);
+    border: 1px solid rgb(221, 221, 221);
+    /* background-color: rgb(117, 117, 113); */
+}
+
+.sidebar__account input {
+    position: absolute;
+    bottom: 57%;
+    margin-left: 5.8%;
+    display: flex;
+}
+
+.wrap_content_account h5 {
+    font-size: 18px;
+    color: var(--book-heading);
+}
+
+.accountInfo .container {
+    /* background: linear-gradient(var(--bg-01), var(--bg-01)) padding-box,
+    linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box; */
+    border: 2px solid transparent;
+    padding: 0 50px 20px 20px;
+    width: 100%;
+    /* margin: auto; */
+    /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6); */
+    transition: 0.5s;
+    position: relative;
+    top: -40px;
+}
+
+.accountInfo .container:hover {
+    /* transform: scale(0.99); */
+}
+
+.tree__menu a {
+    color: var(--book-heading);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.accountInfo .content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.accountInfo .left {
+    width: 150px;
+    position: relative;
+    /* background-color: #8fb891; */
+}
+
+.accountInfo .right {
+    /* background-color: #03f40f; */
+    width: calc(100% - 180px);
+    margin-left: 50px;
+}
+
+.accountInfo .left .img input {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+}
+
+.accountInfo .img img {
+    position: absolute;
+    top: 80px;
+    left: 170px;
+    width: 180px;
+    height: 180px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.accountInfo .right label {
+    font-size: 17px;
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    display: block;
+}
+
+.accountInfo .right input {
+    width: 80%;
+    padding: 0.5rem 0.7rem;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.right button {
+    position: relative;
+    overflow: hidden;
+}
+
+.right button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #171717;
+    padding: 0.8em 2em;
+    border: none;
+    border-radius: 0.6rem;
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+/* button span:not(:nth-child(6)) {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  height: 20px;
+  width: 100%;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  transition: 0.6s ease;
+}
+
+button span:nth-child(6) {
+  position: relative;
+}
+
+button span:nth-child(1) {
+  transform: translate(-3.3em, -4em);
+}
+
+button span:nth-child(2) {
+  transform: translate(-6em, 1.3em);
+}
+
+button span:nth-child(3) {
+  transform: translate(-0.2em, 1.8em);
+}
+
+button span:nth-child(4) {
+  transform: translate(3.5em, 1.4em);
+}
+
+button span:nth-child(5) {
+  transform: translate(3.5em, -3.8em);
+}
+
+button:hover span:not(:nth-child(6)) {
+  transform: translate(-50%, -50%) scale(4);
+  transition: 1.5s ease;
+} */

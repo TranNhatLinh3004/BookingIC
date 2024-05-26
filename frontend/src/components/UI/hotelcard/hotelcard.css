@@ -1,0 +1,174 @@
+.fp {
+    position: relative;
+    width: 100%;
+    height: 390px;
+    border-radius: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+    /* background-color: rgb(63, 64, 62); */
+    cursor: pointer;
+    /* display: flex;
+  justify-content: space-between; */
+    /* gap: 20px; */
+}
+
+.fp:hover .control-btn button {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.fpItem {
+    /* background-color: gold; */
+    border-radius: 5px;
+    /* box-shadow: 0px 2px 5px #cac1c1cf, 0px 4px 5px #cac1c1cf; */
+    box-shadow: 0px 2px 5px var(--shadow-color), 0px 4px 5px var(--shadow-color);
+    /* width: 200px; */
+    flex: 1;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s ease;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0 20px;
+    position: relative;
+    width: 267px;
+}
+
+.fpItem .heart {
+    position: absolute;
+    top: 10px;
+    /* left: 10px; */
+    right: 30px;
+    max-width: 25px;
+}
+
+
+/* .fpItem .heart i {
+    position: absolute;
+    top: 10px;
+    font-size: 25px;
+    background: transparent;
+    transition: 0.3 ease;
+} */
+
+
+/* .fpItem .heart i:hover {
+    font-size: 27px;
+} */
+
+
+/* .fpItem:hover {
+  transform: translateY(0.1px);
+  box-shadow: 0 4px 10px #666;
+} */
+
+.content__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 8px 15px 8px;
+}
+
+.fpImg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.fpName {
+    color: #333;
+    font-weight: bold;
+}
+
+.fpCity {
+    font-weight: 300;
+}
+
+.fpName,
+.fpCity {
+    margin-bottom: 5px;
+}
+
+.fpPrice {
+    margin-top: 20px;
+    align-self: flex-end;
+    font-weight: 500;
+    color: #333;
+}
+
+.fpPrice span {
+    font-size: 14px;
+    margin-right: 5px;
+    color: grey;
+}
+
+.fpRating>button {
+    background-color: #003580;
+    color: white;
+    border: none;
+    padding: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.fpRating>span {
+    font-size: 14px;
+}
+
+.control-btn button {
+    display: flex;
+    background: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    padding: 2px;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.control-btn .next {
+    position: absolute;
+    top: 45%;
+    right: 20px;
+    z-index: 1;
+}
+
+.control-btn .prev {
+    position: absolute;
+    top: 45%;
+    left: 20px;
+    z-index: 1;
+}
+
+.control-btn .icon {
+    font-size: 25px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .fp {
+        width: 100%;
+        height: 18rem;
+    }
+    .fpImg {
+        height: 10rem;
+    }
+    .fpName {
+        font-size: 0.9rem;
+    }
+    .fpCity {
+        font-size: 0.8rem;
+    }
+    .fpPrice {
+        font-size: 0.8rem;
+    }
+    .fpPrice span {
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,71 @@
+.booking__list {
+  /* background-color: beige; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.booking__list .left {
+  /* background-color: rgb(163, 163, 54); */
+  width: 75% !important;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.btn__review {
+  margin: 15px 20px;
+  border: 1px solid var(--book-color);
+  color: #fff;
+  background-color: var(--book-color);
+}
+
+.booking__list .left .wrapper__img {
+  margin-left: 10px !important;
+}
+
+.temp {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin-right: 15px;
+}
+
+.nint {
+  margin-left: 10px !important;
+  height: 100px;
+  width: 100px;
+}
+
+.container__img {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pending_tx {
+  font-size: 20px !important;
+  margin: 5px 20px !important;
+}
+
+.booking__list .left .btn__cancel {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  background-color: rgba(16, 2, 2, 0.4) !important;
+  height: 20px;
+  width: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  /* top: "0",
+    right: "0",
+    background: "red",
+    color: "white",
+    border: "none",
+    borderRadius: "50%",
+    cursor: "pointer", */
+  cursor: pointer;
+  /* border-radius: 50% !important; */
+}

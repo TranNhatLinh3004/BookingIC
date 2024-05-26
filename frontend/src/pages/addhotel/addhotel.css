@@ -1,0 +1,64 @@
+/* AddHotelPage.css */
+
+.container__add {
+  background-color: #d3d3d4;
+  /* max-width: 1000px; */
+  margin: 150px auto;
+  padding: 2rem 14rem;
+}
+
+.container__add h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.container__add form {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.form-group label {
+  margin-right: 10px;
+}
+
+.container__add label {
+  font-weight: bold;
+  width: 100%;
+}
+
+.container__add input {
+  margin-top: 5px;
+}
+
+.container__add input[type="text"],
+.container__add input[type="number"],
+.container__add textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.container__add input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+.container__add button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.container__add button[type="submit"]:hover {
+  background-color: #0056b3;
+}

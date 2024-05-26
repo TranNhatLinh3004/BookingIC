@@ -1,0 +1,39 @@
+.clock__wrapper {
+  margin-top: 20px;
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clock__data {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.clock__data span {
+  padding-left: 10px;
+  font-size: 30px;
+}
+
+.clock__wrapper .box__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aliceblue; */
+}
+
+.box__text h1 {
+  color: var(--heading-text-color);
+  font-size: 40px;
+}
+
+.clock__data h5 {
+  position: relative;
+  top: -20px;
+  font-size: 18px;
+}

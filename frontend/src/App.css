@@ -1,0 +1,145 @@
+/* google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+/*  css variables */
+
+:root {
+  --bg-01: #ffffff;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #fff;
+  --hero-bg: #6060602f;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
+  --subtitle-font-name: "Island Moments", cursive;
+  --main-color: rgb(0, 200, 133);
+  --lightgreen-color: rgb(115, 207, 9);
+  --text-animation: chartreuse;
+  --line-text: #333;
+  --service-text: #0a1d37;
+  --shadow-color: #cac1c1cf;
+  --footer-color: #0a1d37;
+  --main-color2: rgb(195, 20, 37);
+  --book-color: #003b95;
+  --book-heading: #333;
+}
+
+/* reset browser default */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  height: 0.2rem;
+  width: 0.6rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--book-color);
+}
+
+body {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--bg-01);
+  min-height: 100vh;
+}
+
+.light-theme {
+  --bg-01: #fff;
+  --heading-text-color: #fff;
+  --span-text-color: #868686;
+  --text-animation: rgb(0, 200, 133);
+  --line-text: #333;
+  --service-text: black;
+  --service-icon: black;
+  --footer-color: #0a1d37;
+  --shadow-color: #cac1c1cf;
+}
+
+.dark-theme {
+  --book-heading: #fff;
+  --line-text: #fff;
+  --text-animation: rgb(0, 200, 133);
+  --span-text-color: #fff;
+  --heading-text-color: #0a1d37;
+  --service-text: black;
+  --bg-01: #242526;
+  --primary-color: #fff;
+  --container-color: #1d1d1d;
+  --logo-color: chartreuse;
+  --title-color-dark: chartreuse;
+  --service-icon: #fff;
+  --footer-color: #242526;
+  --shadow-color: #303030;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+  padding: 3px 6px;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+section {
+  padding: 60px 0px;
+  /* min-height: 50vh; */
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px 12px;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+h1 {
+  color: var(--book-heading);
+}
